@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .col {
+                 border: 1px solid blue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container" style="background: red"> <!-- dentro del container se debe incluir siempre filas: "row" -->
+            <div class="row"> <!-- cada fila tiene como maximo 12 columnas (col) excepto que se modifique. es decir , cada col unico debe tener su tamaño y otro col el suyo para completar en total las 12 columnas entre ellas. si entre ellas hay mas de 12, las columnas se van bajando-->
+                
+               <!--  al pasar el maximo del largo ocupan sus respectivos diferentes espacios pero si van menos de largo o la pantalla va pequeño los dos ocupan 12 -->
+                <div class="col-12 col-lg-3" style="background: blue;">
+                   1
+                </div>
+                    
+                <div class="col-12 col-lg-9" style="background: yellow">
+                    2
+                </div>
+                    
+                
+            </div>
+
+          <!--   <div class="row">
+                <div class="col">
+                    1
+
+                </div>
+
+                <div class="col">
+                    2
+
+                </div>
+
+                <div class="col">
+                    3
+
+                </div>
+
+            </div> -->
+
+        </div>
+    
+    </body>
+</html>
